@@ -1,0 +1,693 @@
+@media only screen and (min-width:961px) {
+
+.content-area {
+    position: absolute;
+    right: 0;
+    background-color: #222;
+    height: 100%;
+    width: 100%;
+    max-width: calc(100% - 380px);
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 25px;
+}
+
+
+
+.animated-sections {
+    position: relative;
+    height: 100%;
+    -webkit-perspective: 1500px;
+    -moz-perspective: 1500px;
+    perspective: 1500px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+.animated-section {
+    position: absolute;
+    color: #fff;
+    border-radius: 30px;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    margin: auto;
+}
+
+.section-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 90;
+}
+
+
+.title-block {
+    text-align: center;
+}
+
+.title-block h2 {
+    color: #f5f5f5;
+    font-size: 60px;
+    line-height: 74px;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* ABOUT ME SECTION*/
+
+
+.page-title {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+.page-title h2 {
+    position: relative;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.page-title span {
+    color: #04b404;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+
+.section-content p{
+    font-size: 16px;
+}
+
+.info-list li {
+    padding: 5px 0%;
+}
+
+.info-list .title {
+    color: #04b404;
+    font-weight: 400;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.info-list .data {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+
+/*RESUME SECTION*/
+
+.block-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.block-title span {
+    color: #04b404;
+    font-size: 24px;
+}
+
+.timeline-item {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.education {
+    margin-bottom: 25px;
+}
+
+.left-part {
+    width: 30%;
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 15px ;
+}
+
+.item-period {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.item-institute {
+   display: block;
+   font: 12px;
+   font-weight: 300;
+   color: #a5a6a7 
+}
+
+.divider {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    width: 1px;
+    background-color: #444;
+}
+
+.right-part {
+    width: 70%;
+    display: table-cell;
+    padding-left: 25px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+
+.item-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.right-part p {
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.lenguage {
+    padding: 2px 0px;
+}
+
+.lenguage .title {
+    display: inline-block;
+    font-weight: 700;
+    position: relative;
+}
+
+.lenguage .value {
+    float: right;
+    color: #aaa; 
+    position: relative;
+}
+
+.bg-custom {
+    background-color: #04b404;
+}
+
+
+.knowledges li {
+    display: inline-block;
+    background-color:#04b404;
+    border-radius: 3px;
+    color: #fff;
+    padding: 1px 10px;
+    margin: 3px 2px;
+    font-size: 13px;
+}
+
+
+/*PORTFOLIO SECTION*/
+
+.portfolio-card {
+    position: relative;
+    display: inline-block;
+    margin: 10px 5px;
+    background-color: #333;
+    border: #666;
+    width: 45%;
+    height: 200px;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.portfolio-card h4 {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    color: #f5f5f5;
+}
+
+.portfolio-card h5 {
+    margin: 0 auto;
+    color: #04b404;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.portfolio-card p {
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #f5f5f5;
+}
+
+.portfolio-card span {
+    color: #04b404;
+}
+
+.portfolio-card .bottom-site {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.bottom-site p {
+    margin: 5px;
+    padding: 0px;
+}
+
+
+
+/*INTEREST SECTION*/
+.interest-card-left {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    background-color: #333;
+    border: #666;
+    padding: 10px;
+    margin: 5px 0%;
+    text-align: left;
+}
+
+.interest-card-right {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    background-color: #333;
+    border: #666;
+    padding: 10px;
+    margin: 5px 0%;
+    text-align: right;
+}
+
+.interest-card-left ul li, .interest-card-right ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0px;
+
+}
+
+.interest-card-left h4, .interest-card-right h4 {
+    position: relative;
+    height: 100%;
+    font-weight: 800;
+
+}
+
+.interest-card-left img, .interest-card-right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.interest-card-left p, .interest-card-right p {
+    font: 400;
+    line-height: 2em;
+    text-align: center;
+    margin: auto;
+}
+
+/*CONTACT SECTION*/
+
+.card {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 10px 10px;
+    background-color: #333;
+    border: #666;
+    padding: 10px 0px;
+    height: 150px;
+    text-align: center;
+}
+
+.card i {
+    color: #04b404;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 2.5em;
+}
+
+.card h4 {
+    font-size: 14px;
+}
+
+.contact-social-media .social-contact {
+    padding: 5px 0%;
+}
+
+.contact-social-media .social-contact i{
+    color: #a5a6a7;
+    font-size: 26px;
+    display: inline-block;
+}
+
+.social-contact h4 {
+    display: inline-block;
+    color: #a5a6a7;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+}
+
+
+@media only screen and (max-width:960px) { 
+    
+    .content-area {
+        background-color: #333;
+        padding: 10px;
+        margin-top: 160px;
+    }
+
+    .animated-section {
+        color: #fff;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        padding: 60px;
+        padding: 10px;
+    }
+    
+    /* ABOUT ME SECTION*/
+    
+    
+    .page-title {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 10px;
+        padding-top: 50px;
+    }
+    
+    .page-title h2 {
+        position: relative;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .page-title span {
+        color: #04b404;
+        font-weight: 800;
+        font-size: 28px;
+    }
+    
+    
+    .section-content p{
+        font-size: 14px;
+    }
+    
+    .info-list li {
+        padding: 5px 0%;
+    }
+    
+    .info-list .title {
+        color: #04b404;
+        font-weight: 400;
+        padding-right: 5px;
+        font-size: 16px;
+    }
+    
+    .info-list .data {
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    /*RESUME SECTION*/
+
+    .block-title {
+        padding-bottom: 20px;
+    }
+
+    .block-title h3 {
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 25px;
+    }
+
+    .block-title span {
+        color: #04b404;
+        font-size: 22px;
+    }
+
+    .timeline-item {
+        position: relative;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .education {
+        margin-bottom: 25px;
+    }
+
+    .left-part {
+        width: 30%;
+        display: table-cell;
+        text-align: right;
+        vertical-align: top;
+        padding-right: 15px ;
+        padding-bottom: 25px;
+    }
+
+    .item-period {
+        color: #aaa;
+        font-size: 14px;
+    }
+
+    .item-institute {
+       display: block;
+       font: 12px;
+       font-weight: 500;
+       color: #a5a6a7 
+    }
+
+    .divider {
+        position: absolute;
+        top: 0;
+        left: 30%;
+        bottom: 0;
+        width: 1px;
+        background-color: #666;
+    }
+
+    .right-part {
+        width: 70%;
+        display: table-cell;
+        padding-left: 25px;
+        padding-right: 15px;
+        vertical-align: top;
+    }
+
+
+    .item-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .right-part p {
+        font-size: 14px;
+        margin-left: 2px;
+    }
+
+    .lenguage {
+        padding: 2px 0px;
+    }
+
+    .bg-custom {
+        background-color: #04b404;
+    }
+
+    .lenguage .title {
+        display: inline-block;
+        font-weight: 700;
+        position: relative;
+    }
+
+    .lenguage .value {
+        float: right;
+        color: #aaa; 
+        position: relative;
+    }
+
+
+    .knowledges li {
+        display: inline-block;
+        background-color:#04b404;
+        border-radius: 3px;
+        color: #fff;
+        padding: 1px 10px;
+        margin: 3px 2px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .ps__scrollbar-y-rail {
+        top: 0px;
+    }
+
+
+    /*PORTFOLIO SECTION*/
+
+
+
+    a.portfolio-card {
+        margin: 10px auto;
+        position: relative;
+        display: inline;
+        background-color: #444;
+        border: #04b404;
+        width: 70%;
+        height: 250px;
+        color: #f5f5f5;
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 10px;
+    }
+
+    .portfolio-card h4 {
+        text-align: center;
+        text-decoration: none;
+        font-weight: 800;
+        color: #f5f5f5;
+    }
+
+    .portfolio-card h5 {
+        margin: 0 auto;
+        color: #04b404;
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    .portfolio-card p {
+        font-size: 14px;
+        line-height: 1.2em;
+        font-weight: 500;
+        color: #f5f5f5;
+    }
+
+    .portfolio-card span {
+        color: #04b404;
+    }
+
+    .portfolio-card .bottom-site {
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    .bottom-site p {
+        margin: 5px;
+        padding: 0px;
+    }
+
+
+
+    /*INTEREST SECTION*/
+    .interest-card-left {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block;
+        background-color: #333;
+        border: #666;
+        padding: 10px;
+        margin: 5px 0%;
+        text-align: center;
+    }
+
+    .interest-card-right {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block;
+        background-color: #333;
+        border: #666;
+        padding: 10px;
+        margin: 5px 0%;
+        text-align: center;
+    }
+
+    .interest-card-left ul, .interest-card-right ul {
+        background-color: #444;
+    }
+
+    .interest-card-left ul li, .interest-card-right ul li {
+        display: inline-block;
+        padding: 10px;
+        margin: 5px 0px;
+
+    }
+
+    .interest-card-left h4, .interest-card-right h4 {
+        position: relative;
+        height: 100%;
+        font-weight: 800;
+
+    }
+
+    .interest-card-left img, .interest-card-right img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .interest-card-left p, .interest-card-right p {
+        font: 400;
+        line-height: 2em;
+        text-align: center;
+        margin: auto;
+    }
+
+    /*CONTACT SECTION*/
+
+    .card {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin: 10px 10px;
+        background-color: #333;
+        border: #666;
+        padding: 10px 0px;
+        height: 150px;
+        text-align: center;
+    }
+
+    .card i {
+        color: #04b404;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 2.5em;
+    }
+
+    .card h4 {
+        font-size: 14px;
+    }
+
+    .contact-social-media .social-contact {
+        padding: 5px 0%;
+    }
+
+    .contact-social-media .social-contact i{
+        color: #a5a6a7;
+        font-size: 26px;
+        display: inline-block;
+    }
+
+    .social-contact h4 {
+        display: inline-block;
+        color: #a5a6a7;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+
+}

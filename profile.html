@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Icon Font -->
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+  <!-- CSS style -->
+  <link rel="stylesheet" href="./css/header_style.css">
+  <link rel="stylesheet" href="./css/main_style.css">
+  <link rel="stylesheet" href="./css/background.css">
+  <link rel="stylesheet" href="./css/section_style.css">
+
+  <title>Resume</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="page-content">
+      <header class="header">
+        <div class="header-content">
+          <div class="header-photo">
+            <img src="img/profile.jpg" alt="Pablo Alpizar">
+          </div>
+          <div class="header-title">
+            <h2>Pablo Alpizar Monge</h2>
+            <h3>Student</h3>
+          </div>
+        </div>
+        <ul class="main-menu">
+          <li>
+            <a id="btn-about" class="nav-anim active" href=#about onclick="sectionToShow(this.id)">
+              <span class="menu-icon lnr lnr-user"></span>
+              <span>About me</span>
+            </a>
+          </li>
+          <li>
+            <a id="btn-resume" class="nav-anim" href=#resume onclick="sectionToShow(this.id)">
+              <span class="menu-icon lnr lnr-graduation-hat"></span>
+              <span>Resume</span>
+            </a>
+          </li>
+          <li>
+            <a id="btn-portfolio" class="nav-anim" href=#portfolio onclick="sectionToShow(this.id)">
+              <span class="menu-icon lnr lnr-briefcase"></span>
+              <span>Portfolio</span>
+            </a>
+          </li>
+          <li>
+            <a id="btn-interest" class="nav-anim" href=#interest onclick="sectionToShow(this.id)">
+              <span class="menu-icon lnr lnr-bicycle"></span>
+              <span>Interest</span>
+            </a>
+          </li>
+          <li>
+            <a id="btn-contact" class="nav-anim" href=#contact onclick="sectionToShow(this.id)">
+              <span class="menu-icon lnr lnr-phone-handset"></span>
+              <span>Contact me</span>
+            </a>
+          </li>
+        </ul>
+        <div class="copyrights">© 2021 All rights reserved.</div>
+      </header>
+      <div class="content-area">
+        <div class="animeted-sections">
+          <section class="animated-section section-active" id="about">
+            <div class="page-title">
+              <h2>About <span>Me</span></h2>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <div class="col-xs-12 col-sm-5">
+                  <p>
+                    Hi, I'm Pablo Alpizar Monge, I am in the third year of my bachelor's degree student in Software engineering 
+                    degree at Tecnológico de Costa Rica.
+
+                  </p>
+                </div>
+                <div class="col-xs-12 col-sm-5">
+                  <div class="info-list">
+                    <ul>
+                      <li>
+                        <span class="title">Age</span>
+                        <span class="data">21</span>
+                      </li>
+                      <li>
+                        <span class="title">Residence</span>
+                        <span class="data">Costa Rica</span>
+                      </li>
+                      <li>
+                        <span class="title">City</span>
+                        <span class="data">Puriscal</span>
+                      </li>
+                      <li>
+                        <span class="title">e-mail</span>
+                        <span class="data">pabloalpizar99@gmail.com</span>
+                      </li>
+                      <li>
+                        <span class="title">phone</span>
+                        <span class="data">+506 60711267</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="animated-section" id="resume">
+            <div class="page-title">
+              <h2>Resume</h2>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                  <div class="block-title">
+                    <h3>Education</h3>
+                  </div>
+                  <div class="education">
+                    <div class="timeline-item">
+                      <div class="left-part">
+                        <h5 class="item-period">2021</h5>
+                        <span class="item-institute">Technology of Costa Rica</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">Software Enginner</h4>
+                        <p>3rd year of university baccalaureaten</p>
+                      </div>
+                    </div>
+
+                    <div class="timeline-item clearfix">
+                      <div class="left-part">
+                        <h5 class="item-period">2016</h5>
+                        <span class="item-institute">Colegio de Barbacoas</span>
+                      </div>
+                      <div class="divider"></div>
+                      <div class="right-part">
+                        <h4 class="item-title">School Diploma</h4>
+                        <p>Study the high school of secondary education in the College of Technological Orientation of
+                          Barbacoas</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="block-title">
+                    <h3>Personal <span>skill</span></h3>
+                  </div>
+                  <ul class="knowledges">
+                    <li>Control version (Git)</li>
+                    <li>Communication</li>
+                    <li>Problem-Solving</li>
+                    <li>Co-working</li>
+                    <li>Object-oriented design</li>
+                    <li>Teamwork</li>
+                    <li>Critical thinking</li>
+                    <li>Time management</li>
+                    <li>Leadership</li>
+                    <li>Ability to Work Under Pressure</li>
+                  </ul>
+                  <div class="block-title">
+                    <h3>Lenguages</h3>
+                  </div>
+                  <div class="lenguage">
+                    <div class="title">Spanish</div>
+                    <div class="value">Native</div>
+                    <div class="progress">
+                      <div class="progress-bar bg-custom" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                  </div>
+                  <div class="lenguage">
+                    <div class="title">English</div>
+                    <div class="value">60%</div>
+                    <div class="progress">
+                      <div class="progress-bar bg-custom" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-5">
+                  <div class="block-title">
+                    <h3>Programming<span> Lenguages</span></h3>
+                  </div>
+                  <div class="lenguages-info">
+                    <div class="lenguage">
+                      <div class="title">C++</div>
+                      <div class="value">60%</div>
+                      <div class="progress">
+                        <div class="progress-bar bg-custom" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                      </div>
+                    </div>
+                    <div class="lenguage">
+                      <div class="title">Java</div>
+                      <div class="value">70%</div>
+                      <div class="progress">
+                        <div class="progress-bar bg-custom" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                      </div>
+                    </div>
+                    <div class="lenguage">
+                      <div class="title">Python</div>
+                      <div class="value">70%</div>
+                      <div class="progress">
+                        <div class="progress-bar bg-custom" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
+                      </div>
+                    </div>
+                    <div class="lenguage">
+                      <div class="title">Dart</div>
+                      <div class="value">40%</div>
+                      <div class="progress">
+                        <div class="progress-bar bg-custom" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div>
+                      </div>
+                    </div>
+                    <div class="lenguage">
+                      <div class="title">JavaScript</div>
+                      <div class="value">50%</div>
+                      <div class="progress">
+                        <div class="progress-bar bg-custom" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="animated-section" id="portfolio">
+            <div class="page-title">
+              <h2>Portfolio</h2>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <a class="portfolio-card" href="https://github.com/palpizarm/learning_robot" target="_blank">
+                  <h4>Learning robot</h4>
+                  <h5 class="bi bi-bezier"></h5>
+                  <p>Apply genetic to robots learning</p>
+                  <div class="bottom-site">
+                    <p>Lenguages <span>Python</span></p>
+                    <p>Date <span>2019</span></p>
+                  </div>
+                </a>
+                <a class="portfolio-card" href="https://github.com/palpizarm/Sudoku" target="_blank">
+                  <h4>Sudoku</h4>
+                  <h5 class="bi bi-controller"></h5>
+                  <p>A implementations of classic soduku game </p>
+                  <div class="bottom-site">
+                    <p>Lenguages <span>Python</span></p>
+                    <p>Date <span>2019</span></p>
+                  </div>
+                </a>
+                <a class="portfolio-card" href="https://github.com/palpizarm/music-Visualization" target="_blank">
+                  <h4>Music player</h4>
+                  <h5 class="lnr lnr-music-note"></h5>
+                  <p> Music player implemented with processing and minim library</p>
+                  <div class="bottom-site">
+                    <p>Lenguages <span>Processing</span></p>
+                    <p>Date <span>2020</span></p>
+                  </div>
+                </a>
+                <a class="portfolio-card" href="https://github.com/palpizarm/Nonogram" target="_blank">
+                  <h4>Nonogram</h4>
+                  <h5 class="bi bi-border-all"></h5>
+                  <p>Program to solve nonograms with backtracking</p>
+                  <div class="bottom-site">
+                    <p>Lenguages <span>C#,Shader Lab, HLSL</span></p>
+                    <p>Date <span>2020</span></p>
+                  </div>
+                </a>
+                <a class="portfolio-card" href="https://github.com/palpizarm/mobile_visualization_project"
+                  target="_blank">
+                  <h4>Mobile chart</h4>
+                  <h5 class="lnr lnr-tablet"></h5>
+                  <p>Use flutter framework to create pretty chart</p>
+                  <div class="bottom-site">
+                    <p>Lenguages <span>Dart</span></p>
+                    <p>Date <span>2020</span></p>
+                  </div>
+                </a>
+                <a class="portfolio-card" href="https://github.com/andrescornejo/municipalidad-tp3" target="_blank">
+                  <h4>Municipal service payment portal</h4>
+                  <h5 class="bi bi-credit-card"></h5>
+                  <p>Transactional system for the payment of municipal services </p>
+                  <div class="bottom-site">
+                    <p>Lenguages <span>TSQL, C#, Classic ASP</span></p>
+                    <p>Date <span>2020</span></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="animated-section" id="interest">
+            <div class="page-title">
+              <h2>Interests</h2>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <a class="interest-card-right">
+                  <ul>
+                    <li class="col-xs-12 col-sm-4">
+                      <p>I ride a bicycle one or twice times a week. Usually the bicycle trips take me about an two
+                        hour.</p>
+                    </li>
+                    <li class="col-xs-12 col-sm-4">
+                      <img src="img/ride a bike.gif">
+                    </li class="col-xs-12 col-sm-3">
+                    <li class="interest_title">
+                      <h4>Ride a Bike</h4>
+
+                    </li>
+                  </ul>
+                </a>
+                <a class="interest-card-left">
+                  <ul>
+                    <li class="col-xs-12 col-sm-3">
+                      <h4>Running</h4>
+                    </li>
+                    <li class="col-xs-12 col-sm-3">
+                      <img src="img/running.gif">
+                    </li>
+                    <li class="col-xs-12 col-sm-5">
+                      <p>I usually go jogging in the park when the weather is nice and I also run on the track when I'm
+                        in college. I joined the running team of the University</p>
+                    </li>
+                  </ul>
+                </a>
+                <a class="interest-card-right">
+                  <ul>
+                    <li class="col-xs-12 col-sm-5">
+                      <p>When I have some free time at night, I play some video games on my computer</p>
+                    </li>
+                    <li class="col-xs-12 col-sm-3">
+                      <img src="img/play video games.gif">
+                    </li>
+                    <li class="col-xs-12 col-sm-3">
+                      <h4>Play video games</h4>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="animated-section" id="contact">
+            <div class="page-title">
+              <h2>Contact</h2>
+            </div>
+            <div class="section-content">
+              <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                  <div class="card">
+                    <i class="lnr lnr-phone-handset"></i>
+                    <h4>506 60711267</h4>
+                  </div>
+                  <div class="card">
+                    <i class="lnr lnr-envelope"></i>
+                    <h4>pabloalpizar99@gmail.com</h4>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                  <div class="block-title">
+                    <h3>Let's <span>socialize!</span></h3>
+                  </div>
+                  <div class="contact-social-media">
+                    <div class="social-contact">
+                      <a href="https://www.linkedin.com/in/pablo-alpizar-monge/" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                        <h4>Linked In</h4>
+                      </a>
+                    </div>
+                    <div class="social-contact">
+                      <a href="https://www.facebook.com/pablo.alpizarmonge" target="_blank">
+                        <i class="bi bi-facebook"></i>
+                        <h4>Facebook</h4>
+                      </a>
+                    </div>
+                    <div class="social-contact">
+                      <a href="https://www.instagram.com/pabloalpizar_/" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                        <h4>Instagram</h4>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Animated background-->
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!--SVG Icon-->
+  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
+  <!--section control-->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
