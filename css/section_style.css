@@ -15,7 +15,7 @@
 
 
 .animated-sections {
-    position: relative;
+    position: absolute;
     height: 100%;
     -webkit-perspective: 1500px;
     -moz-perspective: 1500px;
